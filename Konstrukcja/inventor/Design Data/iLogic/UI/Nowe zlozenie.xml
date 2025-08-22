@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Nowe zlozenie</Name>
+  <Guid>702e8ca2-eb25-480d-8ddd-1ef67ce90e63</Guid>
+  <Items>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Nr projektu</Name>
+      <Guid>1a027844-5467-49a1-bac8-98204310de0a</Guid>
+      <PropertyName>Project</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>(K - numer) Nr zlozenia</Name>
+      <Guid>2575f507-fdc0-4064-9618-b508f2a95a9c</Guid>
+      <PropertyName>Part Number</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>(K - firma)</Name>
+      <Guid>392fbfa7-c5ca-447a-befb-82fb8889ba89</Guid>
+      <PropertyName>Authority</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Nr podzlozenia</Name>
+      <Guid>dca1344a-4af1-41b4-b403-ccdbe5da9bf1</Guid>
+      <PropertyName>Revision Number</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Nazwa zlozenia</Name>
+      <Guid>4b4289fb-f209-45ca-bf5c-2b18615b83cf</Guid>
+      <PropertyName>Description</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Tworca</Name>
+      <Guid>44ab7785-bb28-42b9-8d9d-46a343e36594</Guid>
+      <PropertyName>Author</PropertyName>
+      <PropertySetName>Summary</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="EmptySpaceSpec">
+      <Name>Empty Space 1</Name>
+      <Guid>d3c8a068-6d4e-4d02-a068-53b7b4abd36a</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Rodzaj zlozenia</Name>
+      <Guid>0d36a21b-781d-45bd-bfa7-65f5859a7829</Guid>
+      <PropertyName>Cost Center</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="SplitterSpec">
+      <Name>Splitter 2</Name>
+      <Guid>eef42325-bd33-4b52-b922-2f854538bf23</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>N - normalne</Name>
+      <Guid>d729ef2a-1d40-41cd-bdb0-e4fdc53479ea</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>K - kupne</Name>
+      <Guid>bc564aa1-a375-49f0-9d22-ed24ceec3ccf</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="EmptySpaceSpec">
+      <Name>Empty Space 2</Name>
+      <Guid>a46e72d3-b9d3-4ecb-bb87-0d84401687f1</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Dzial odpowiedzialny</Name>
+      <Guid>04c49176-1740-415c-8e83-7ac1e9aaa8d5</Guid>
+      <PropertyName>Vendor</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="SplitterSpec">
+      <Name>Splitter 1</Name>
+      <Guid>9b87d545-bda0-48ae-b61c-3671aa85eb47</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>mech - mechaniczny</Name>
+      <Guid>86d6b8a2-3ab4-46f0-8816-e45b62bb5a7d</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>el - elektryczny</Name>
+      <Guid>52052a94-3e0f-4113-8ba3-c4aeaf0eefe7</Guid>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>true</AllowCustomization>
+  <PredefinedButtons>Done</PredefinedButtons>
+  <Modal>true</Modal>
+</FormSpecification>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Nowa czesc</Name>
+  <Guid>0eac664d-ad5f-4cca-9550-8ec865c6b41c</Guid>
+  <Items>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>(K - numer) Nr projektu</Name>
+      <Guid>1a027844-5467-49a1-bac8-98204310de0a</Guid>
+      <PropertyName>Project</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>(K - firma) Nr zlozenia</Name>
+      <Guid>f218328f-b2e3-40e9-b2e7-c2ecc7268df8</Guid>
+      <PropertyName>Authority</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Nr podzlozenia</Name>
+      <Guid>dca1344a-4af1-41b4-b403-ccdbe5da9bf1</Guid>
+      <PropertyName>Revision Number</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Nr czesci</Name>
+      <Guid>b960a709-3572-47a5-bef6-41b5951c20ca</Guid>
+      <PropertyName>Stock Number</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Nazwa czesci</Name>
+      <Guid>4b4289fb-f209-45ca-bf5c-2b18615b83cf</Guid>
+      <PropertyName>Description</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Tworca</Name>
+      <Guid>44ab7785-bb28-42b9-8d9d-46a343e36594</Guid>
+      <PropertyName>Author</PropertyName>
+      <PropertySetName>Summary</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="EmptySpaceSpec">
+      <Name>Empty Space 1</Name>
+      <Guid>e6bc3c3e-6ca2-4013-8542-e9821e711d9f</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Rodzaj wykonania</Name>
+      <Guid>d58f2a44-b044-47f4-b19f-3c5ac3c7835b</Guid>
+      <PropertyName>Cost Center</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="SplitterSpec">
+      <Name>Splitter 2</Name>
+      <Guid>5849fb83-3a9a-41da-806c-ed8295067a8b</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>W - wykonanie samodzielne</Name>
+      <Guid>7386f253-03f0-4fc9-baf9-00e8193d67a9</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>B - blacha (giete)</Name>
+      <Guid>d718facd-054a-4fe8-ae42-b814c39258c0</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>T - toczone</Name>
+      <Guid>35ef9436-9f17-4215-931b-83a2800194dc</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>F - frezowane</Name>
+      <Guid>db7682c1-021e-4134-9ce8-862687d18d08</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>I - inne</Name>
+      <Guid>35ebcd03-674d-4b85-9286-5af5365fc662</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>K - kupne</Name>
+      <Guid>97e6b9e1-8426-4bfa-9626-2a4e423e10ef</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="EmptySpaceSpec">
+      <Name>Empty Space 2</Name>
+      <Guid>154a755a-9d0a-4882-9300-26a447395858</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Dzial odpowiedzialny</Name>
+      <Guid>33465d62-0aa6-4bd3-a0cc-3ac284613da5</Guid>
+      <PropertyName>Vendor</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="SplitterSpec">
+      <Name>Splitter 1</Name>
+      <Guid>6f8782f9-e233-4f61-a0ac-5344582ad5d3</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>mech - mechaniczny</Name>
+      <Guid>3f98dc33-168f-4096-b465-896e3faa249a</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="LabelSpec">
+      <Name>el - elektryczny</Name>
+      <Guid>4f26ad0a-37b5-4a11-aa60-d4f260be34c4</Guid>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>true</AllowCustomization>
+  <PredefinedButtons>Done</PredefinedButtons>
+  <Modal>true</Modal>
+</FormSpecification>

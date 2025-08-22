@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormStatePersist xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Size>
+    <Width>690</Width>
+    <Height>425</Height>
+  </Size>
+  <Location>
+    <X>468</X>
+    <Y>216</Y>
+  </Location>
+  <DipToPixelConversionFactors>
+    <WidthFactor>1.25</WidthFactor>
+    <HeightFactor>1.25</HeightFactor>
+  </DipToPixelConversionFactors>
+  <SplitterLocations>
+    <SplitterLocation>
+      <Name>Splitter 2</Name>
+      <Location>
+        <X>0</X>
+        <Y>171</Y>
+      </Location>
+    </SplitterLocation>
+    <SplitterLocation>
+      <Name>Splitter 1</Name>
+      <Location>
+        <X>0</X>
+        <Y>254</Y>
+      </Location>
+    </SplitterLocation>
+  </SplitterLocations>
+  <GroupExpansionStateList />
+  <TabGroupSelectedPageList />
+</FormStatePersist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>iLogicBrowserUiFormSpecification</Name>
+  <Guid>47c84b05-b602-4a02-8840-656ae48e9ece</Guid>
+  <Items>
+    <UiElementSpec xsi:type="FormButtonControlSpec">
+      <Name>Nowa czesc</Name>
+      <Guid>1eba6dc3-be88-45ae-a80f-a4e013033486</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="FormButtonControlSpec">
+      <Name>Nowe zlozenie</Name>
+      <Guid>1eba6dc3-be88-45ae-a80f-a4e013033486</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="FormButtonControlSpec">
+      <Name>Kontrola wersji</Name>
+      <Guid>1eba6dc3-be88-45ae-a80f-a4e013033486</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>false</AllowCustomization>
+  <PredefinedButtons>None</PredefinedButtons>
+  <Modal>false</Modal>
+  <IsLauncherPage>true</IsLauncherPage>
+</FormSpecification>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Kontrola wersji</Name>
+  <Guid>5c0353e9-3023-4cbf-a107-b892a4e207dd</Guid>
+  <Items>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Pelny nr czesci</Name>
+      <Guid>ac68e6fd-7c0e-4711-a667-166ec449f583</Guid>
+      <ReadOnly>true</ReadOnly>
+      <PropertyName>Part Number</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Nazwa czesci</Name>
+      <Guid>a4e02ac3-08fd-4252-82cd-813759de412d</Guid>
+      <ReadOnly>true</ReadOnly>
+      <PropertyName>Description</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="EmptySpaceSpec">
+      <Name>Empty Space 1</Name>
+      <Guid>5440cf09-1bbc-4be6-84e2-a32d4ac7d8bc</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Ostatni update (os.)</Name>
+      <Guid>44ab7785-bb28-42b9-8d9d-46a343e36594</Guid>
+      <PropertyName>Author</PropertyName>
+      <PropertySetName>Summary</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Wersja</Name>
+      <Guid>aa35cc32-1f36-47d0-94a4-b82c92f1d29b</Guid>
+      <PropertyName>Engineer</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>true</AllowCustomization>
+  <PredefinedButtons>Done</PredefinedButtons>
+  <Modal>true</Modal>
+</FormSpecification>
